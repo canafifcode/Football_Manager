@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane style="-fx-background-color: #333333; -fx-padding: 10; -fx-spacing: 5; -fx-border-color: white; -fx-border-width: 1;"
+            prefWidth="250" prefHeight="120" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.demo1.PlayerCardItemController">
+    <Label fx:id="nameLabel" style="-fx-text-fill: white; -fx-font-size: 18px; -fx-font-weight: bold;" />
+    <Label fx:id="positionLabel" style="-fx-text-fill: white; -fx-font-size: 14px;" AnchorPane.topAnchor="25" />
+    <Label fx:id="overallLabel" style="-fx-text-fill: white; -fx-font-size: 14px;" AnchorPane.topAnchor="45" />
+    <Label fx:id="statsLabel" style="-fx-text-fill: white; -fx-font-size: 12px;" AnchorPane.topAnchor="65" text="Stats: ..." />
+</AnchorPane>

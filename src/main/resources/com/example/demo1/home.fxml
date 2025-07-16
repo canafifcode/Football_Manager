@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1620.0" style="-fx-background-color: DARKGRAY;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HomeController">
+   <children>
+      <ImageView fitHeight="924.0" fitWidth="1658.0" layoutX="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bghome.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="577.0" layoutY="594.0" strokeWidth="0.0" style="-fx-font-family: MONOSPACE; -fx-font-size: 30; -fx-font-weight: BOLD;" text="WELCOME TO THE CLUB!!">
+         <font>
+            <Font name="Monospace Bold" size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="signUpButton" contentDisplay="CENTER" graphicTextGap="5.0" layoutX="635.0" layoutY="620.0" lineSpacing="2.0" mnemonicParsing="false" onAction="#switchToSignUp" onSwipeLeft="#switchToScene2" style="-fx-background-color: CORNSILK; -fx-font-family: MONOSPACE;" text="SIGN UP" textFill="#ff0011">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="signInButton" layoutX="802.0" layoutY="620.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: CORNSILK; -fx-font-family: MONOSPACE;" text="SIGN IN" textFill="RED">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="1431.0" layoutY="723.0" mnemonicParsing="false" style="-fx-background-color: CORNSILK; -fx-font-family: MONOSPACE;" text="EXIT" textFill="#ea0a0a">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="629.0" layoutY="498.0" text="FOOTBALL MANAGER" textFill="WHITE">
+         <font>
+            <Font name="Rockwell Extra Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="742.0" layoutY="526.0" prefHeight="42.0" prefWidth="47.0" text="2025" textFill="WHITE">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
